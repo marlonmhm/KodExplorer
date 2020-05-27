@@ -1,1 +1,1 @@
-<?php define ('DATA_PATH', '/opt/kodexplorer-data/');
+<?php define ('DATA_PATH', '/opt/demo/');

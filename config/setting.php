@@ -80,7 +80,7 @@ $config['settingSystemDefault']['menu'] = array(
 	array('name'=>'explorer','type'=>'system','url'=>'index.php?explorer','target'=>'_self','use'=>'1'),
 	array('name'=>'editor','type'=>'system','url'=>'index.php?editor','target'=>'_self','use'=>'1')
 );
-if( strstr(I18n::defaultLang(),'zh') || strstr(I18n::getType(),'zh') ){
+if( strstr(I18n::defaultLang(),'es') || strstr(I18n::getType(),'es') ){
 	$config['settingSystemDefault']['newGroupFolder'] = "share,文档,图片资料,视频资料";
 	$config['settingSystemDefault']['newUserFolder'] = "我的文档,图片,视频,音乐";
 }
